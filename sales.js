@@ -31,6 +31,7 @@ for (let i = 0; i < hours.length; i++) {
 
 CookieStand.prototype.calcCookiesEachHour = function() {
 this.calcCustomersEachHour();
+
 for (let i = 0; i < hours.length; i++) {
  const oneHour = Math.ceil(this.customersEachHour[i] * this.avgCookiesPerSale);
 this.cookiesEachHour.push(oneHour);
