@@ -1,7 +1,5 @@
 
-
 * {
-    color: salmon;
     font-family: 'Helvetica', sans-serif;
    }
    li {
@@ -9,27 +7,50 @@
    }
   
    h1, h2 {
+     color: salmon;
     font-family: 'Righteous', cursive;
    }
    
    body {
        
-       background-color: #F8C1FA;
+       background-color:slategrey;
    }
+   
+    table {
+margin-bottom: 50px;
+margin-top: 50px;
+}
+
+#astenic {
+  width: 400px;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+margin-right: 15px;
+}
+
+main{
+  display: flex;
+}
 
    td {
-    background-color: salmon;  
+    background-color: grey;  
     padding: 5px;
        border-radius: 8px;
     border: 1px solid black;
     font-size: .8em;
    } 
    
-   
+   nav{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+   }
    
    
    th {
-       background-color: gray;
+       background-color: rgb(75, 71, 71);
       color: white;
     padding: 2px;
     border-radius: 8px;
