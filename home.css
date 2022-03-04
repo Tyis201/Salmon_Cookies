@@ -2,3 +2,55 @@
 body{
     background-color: slategray;
 }
+nav {
+    display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-color: almon;
+     margin-bottom: 50px;
+}
+
+#pat {
+    display: flex;
+    flex-direction: column;
+    border: 1px;
+    width: 300px;
+    
+}
+main {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+h1 {
+    margin: auto;
+}
+#cookies {
+    display: flex;
+    flex-direction: column;
+    border: 1px;
+    width: 300px;
+}
+img {
+    width: 450px;
+    height: 250px;
+}
+#img {
+    display: flex;
+    justify-content: space-around;
+}
+#shop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    border: solid 1px black;
+    width: 325px;
+    margin:auto;
+    margin-top: 35px;
+}
+a {
+    margin-top: 15px;
+}
